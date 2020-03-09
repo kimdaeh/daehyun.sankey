@@ -1,6 +1,6 @@
 ---
-title: "daehyunsankey"
-output: rmarkdown::html_vignette
+title: "Daehyun Kim’s Sankey Diagram
+output: html_vignette
 vignette: >
   %\VignetteIndexEntry{daehyunsankey}
   %\VignetteEngine{knitr::rmarkdown}
@@ -14,6 +14,19 @@ knitr::opts_chunk$set(
 )
 ```
 
+&nbsp; \newline 
+
+* his package (daehyun.sankey) requires **ggplot2** and **ggalluvial** packages.
 ```{r setup}
 library(daehyun.sankey)
+library(ggplot2)
+library(ggalluvial)
 ```
+
+&nbsp; \newline 
+
+* Function sankeyplot(data, a, b) draws versions of Sankey diagrams.
+(1)
+(2)
+(3)
+(4)
