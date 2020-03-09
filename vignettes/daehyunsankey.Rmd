@@ -1,5 +1,6 @@
 ---
-title: "daehyunsankey"
+title: "Daehyun's Sankey Diagram"
+author: "Daehyun Kim"
 output: html_vignette
 vignette: >
   %\VignetteIndexEntry{daehyunsankey}
@@ -8,14 +9,17 @@ vignette: >
 ---
 
 ```{r, include = FALSE}
-#knitr::opts_chunk$set(
- # collapse = TRUE,
- # comment = "#>"
-#)
+knitr::opts_chunk$set(
+ collapse = TRUE,
+ comment = "#>"
+)
 ```
 
 ```{r setup}
 library(daehyun.sankey)
 library(ggplot2)
 library(ggalluvial)
+```
+
+```{r demonstration}
 ```
