@@ -6,6 +6,7 @@
 #' @return diagram
 #' @examples
 #'    reform(data, 1, 0)
+#' @export
 
 
 

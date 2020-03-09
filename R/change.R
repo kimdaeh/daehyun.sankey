@@ -6,6 +6,7 @@
 #' @return Reshaped data
 #' @examples
 #'    change(data)
+#' @export
 
 change <- function (data) {
   data1 <- read.table(data, stringsAsFactors=F, sep="\t")

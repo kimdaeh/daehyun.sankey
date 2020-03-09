@@ -6,6 +6,7 @@
 #' @return reformatted data
 #' @examples
 #'    reform(data)
+#' @export
 
 
 reform <- function (data) {		# data: original format of the data
