@@ -15,3 +15,7 @@ Imports:
     dplyr,
     ggplot2,
     ggalluvial
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
