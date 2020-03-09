@@ -2,4 +2,4 @@
 
 export(change)
 export(reform)
-export(sankey.plot)
+export(sankeyplot)
