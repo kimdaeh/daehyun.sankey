@@ -1,5 +1,6 @@
 ---
-title: "Daehyun Kim’s Sankey Diagram
+title: "Daehyun Kim’s Sankey Diagram"
+Author: Daehyun Kim 
 output: html_vignette
 vignette: >
   %\VignetteIndexEntry{daehyunsankey}
@@ -25,8 +26,12 @@ library(ggalluvial)
 
 &nbsp; \newline 
 
-* Function sankeyplot(data, a, b) draws versions of Sankey diagrams.
-(1)
-(2)
-(3)
-(4)
+* Function **sankeyplot(data, a, b)** draws versions of Sankey diagrams.
+(1) (a,b)=(0,0)   vertical white lines (x) / horizontal white lines (x)
+(2) (a,b)=(0,1)   vertical white lines (x) / horizontal white lines (o)
+(3) (a,b)=(1,0)   vertical white lines (o) / horizontal white lines (x)
+(4) (a,b)=(1,1)   vertical white lines (o) / horizontal white lines (o)
+```{r demo}
+sankeyplot(my_data,0,0); sankeyplot(my_data,0,1)
+sankeyplot(my_data,1,0); sankeyplot(my_data,1,1)
+```
