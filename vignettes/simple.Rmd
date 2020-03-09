@@ -3,7 +3,7 @@ title: "Daehyun Kim’s Sankey Diagram"
 Author: Daehyun Kim 
 output: html_vignette
 vignette: >
-  %\VignetteIndexEntry{daehyunsankey}
+  %\VignetteIndexEntry{simple}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

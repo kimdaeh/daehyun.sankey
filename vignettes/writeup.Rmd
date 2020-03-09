@@ -3,6 +3,10 @@ title: "Daehyun Kim's Sankey Diagram"
 author: "Daehyun Kim"
 date: "3/6/2020"
 output: html_vignette
+vignette: >
+  %\VignetteIndexEntry{writeup}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 &nbsp; \newline 
