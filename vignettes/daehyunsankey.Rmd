@@ -1,7 +1,6 @@
 ---
-title: "Daehyun's Sankey Diagram"
-output: rmarkdown::html_vignette:
-  fig_caption: yes
+title: "daehyunsankey"
+output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{daehyunsankey}
   %\VignetteEngine{knitr::rmarkdown}
@@ -17,8 +16,6 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(daehyun.sankey)
-```
-
-```{r 32}
-sankeyplot("https://kimdaeh.github.io/ASSIGNMENT/data.txt", 1,1)
+library(ggplot2)
+library(ggalluvial)
 ```

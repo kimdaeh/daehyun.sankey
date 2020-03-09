@@ -14,5 +14,6 @@ Imports:
     ggplot2,
     ggalluvial
 Suggests: 
-    knitr
+    knitr,
+    rmarkdown
 VignetteBuilder: knitr
