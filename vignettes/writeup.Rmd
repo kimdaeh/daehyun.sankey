@@ -32,7 +32,7 @@ print(read.table("https://kimdaeh.github.io/ASSIGNMENT/my_data.txt", stringsAsFa
 
 &nbsp; \newline 
 
-* **(function 1) Reformatting the data into the long format**
+* **(function 1: reform) Reformatting the data into the long format**
 
 I reformat the data into the long format that is easy to handle for the packages **ggplot** and **ggalluvial**. Also, the reformatted data will contain some variables that will be required for adjusting the shape of the diagram in the wanted form.
 
@@ -76,7 +76,7 @@ Explanation: (1) The diagram will use the column 'fakevalue' for determining the
 
 &nbsp; \newline 
 
-* **(function 2) Function for plotting the Sankey diagram**
+* **(function 2: sankeyplot) Function for plotting the Sankey diagram**
 
 This function takes in the original data file and produce four versions of Sankey diagram (With and without the white space separating shapes of the same color from one another, and with and without the white space separating shapes of different colors from one another.) 
 
