@@ -13,7 +13,7 @@
 
 # the argument 'data' stands for the original data
 # (a,b)=(0,0)
-sankey.plot <-function(data, a, b) {
+sankeyplot <-function(data, a, b) {
   data.for.graph <- reform(data)	# reformat the original data according to function 2
 
   # Colors of the each flow and stratum are in accordance with the original diagram in the Excel file ( "Obesity: A" / "Hypercholesterolemia: B" / "Diabetes: C" / " Smoking: D" / " Hypertension: E" )
