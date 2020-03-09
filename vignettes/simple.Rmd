@@ -1,5 +1,5 @@
 ---
-title: "Daehyun Kim’s Sankey Diagram"
+title: "Daehyun Kim’s Sankey Diagram (simple demonstration)"
 Author: Daehyun Kim 
 output: html_vignette
 vignette: >
