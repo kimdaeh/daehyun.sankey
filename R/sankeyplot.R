@@ -11,8 +11,7 @@
 
 
 
-# the argument 'data' stands for the original data
-# (a,b)=(0,0)
+# (a,b) stands for the version of the diagram (in terms of white lines)
 sankeyplot <-function(data, a, b) {
   data.for.graph <- reform(data)	# reformat the original data according to function 2
 
