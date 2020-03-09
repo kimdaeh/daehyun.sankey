@@ -1,3 +1,13 @@
+#' wide form data to long form
+#'
+#' Taking data resulted from the function 'change' and produce a data frame that can be used for plotting the diagram.
+#'
+#' @param changed data
+#' @return reformatted data
+#' @examples
+#'    reform(data)
+
+
 reform <- function (data) {		# data: original format of the data
   data1 <- change(data)		# reshape the data by the function1
   year <- c( rep("1990" , 5) , rep("1995" , 5) , rep("2000" , 5) , rep("2005" , 5) , rep("2010" , 5) )

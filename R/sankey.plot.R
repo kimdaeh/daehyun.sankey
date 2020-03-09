@@ -1,3 +1,15 @@
+#' Sankey Diagram
+#'
+#' Plotting versions of Sankey diagrams
+#'
+#' @param data, vertical white line (0 or 1), horizontal white line (0 or 1)
+#' @return diagram
+#' @examples
+#'    reform(data, 1, 0)
+
+
+
+
 # the argument 'data' stands for the original data
 # (a,b)=(0,0)
 sankey.plot <-function(data, a, b) {
