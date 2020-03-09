@@ -1,6 +1,6 @@
 ---
 title: "daehyunsankey"
-output: rmarkdown::html_vignette
+output: html_vignette
 vignette: >
   %\VignetteIndexEntry{daehyunsankey}
   %\VignetteEngine{knitr::rmarkdown}
