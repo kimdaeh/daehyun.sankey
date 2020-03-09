@@ -18,3 +18,7 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(daehyun.sankey)
 ```
+
+```{r 32}
+sankeyplot("https://kimdaeh.github.io/ASSIGNMENT/data.txt", 1,1)
+```
