@@ -14,11 +14,12 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 change <- function (data) {
-  var.name <- data[ , 1]
-  data <- data[ , -1]
-  data <- as.data.frame( t(data) )
-  rownames(data) <- c(1 : 5)
-  colnames(data) <- var.name
-  colnames(data)[1] <- "Year"
-  data
+  data1 <- read.table(data, stringsAsFactors=F, sep="\t")
+  var.name <- data1[ , 1]
+  data1 <- data1[ , -1]
+  data1 <- as.data.frame( t(data1) )
+  rownames(data1) <- c(1 : 5)
+  colnames(data1) <- var.name
+  colnames(data1)[1] <- "Year"
+  data1
 }
