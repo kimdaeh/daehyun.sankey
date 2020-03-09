@@ -51,12 +51,13 @@ sankeyplot <-function(data, a, b) {
   for (val in x) {
     p = p + geom_bar(width = 0.7, colour = 'white', size =1.5,
                      position="stack", stat="identity",
-                     data=filter(data.for.graph, year == val) )
+                     data = data.for.graph[data.for.graph$year == val , ])
   }
 
   for (val in x) {
     p = p + geom_bar(width = 0.67, size =1.5, position="stack",
-                     stat="identity", data=filter(data.for.graph, year == val) )
+                     stat="identity",
+                     data = data.for.graph[data.for.graph$year == val , ] )
   }
   }
 
@@ -78,13 +79,13 @@ sankeyplot <-function(data, a, b) {
 
   # Draw an invisible bar around y axis to secure the space for adding y axis label
   p = p+ geom_bar(width = 0.8, position="stack", stat="identity",
-                  data=filter(data.for.graph, year == 1990) , aes( x=0.3), alpha = 0 )
+                  data= data.for.graph[data.for.graph$year == 1990 , ] , aes( x=0.3), alpha = 0 )
 
 
   # Adding y-axis label
-  p = p + geom_text(data=filter(data.for.graph, year == 1990),
-                    aes(label = condition , x=0.4), size = 3.5, color = "black",
-                    position = position_stack(vjust = 0.5))
+  p = p + geom_text( data= data.for.graph[data.for.graph$year == 1990 , ],
+                     aes(label = condition , x=0.4), size = 3.5, color = "black",
+                     position = position_stack(vjust = 0.5))
 
 
   # Error message
@@ -92,4 +93,3 @@ sankeyplot <-function(data, a, b) {
   {print("Error: the arguments 'a' and 'b' of the function 'sankey.plot(data, a, b)' should have the value of either 0 or 1.") }
   else {p}
 }
-
